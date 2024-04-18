@@ -47,9 +47,13 @@ nav a {
     font-weight: bold;
 }
 
+
+
 .nav__logo--container {
     display: flex;
     align-items: center;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .nav__logo--image {
@@ -62,9 +66,17 @@ nav a {
 }
 
 .nav__link {
+    display: inline-block;
     font-weight: 600;
     margin: 0 24px;
     padding: 0 0 4px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: rgb(100, 21, 255);
+        border-bottom: 2px solid rgb(100, 21, 255);
+    }
 }
 
 .nav__link--login {
