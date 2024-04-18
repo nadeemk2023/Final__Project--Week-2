@@ -27,6 +27,16 @@ li {
     list-style: none;
 }
 
+.purple {
+    color: rgb(100, 21, 255);
+}
+
+h1,
+h2 {
+    font-size: 3rem;
+}
+
+
 /* 
 
 NAVIGATION 
@@ -68,7 +78,7 @@ nav a {
 .nav__link {
     display: inline-block;
     font-weight: 600;
-    margin: 0 24px;
+    margin: 0 1.5rem;
     padding: 0 0 4px;
     border-bottom: 2px solid transparent;
     transition: all 0.3s ease;
@@ -80,7 +90,7 @@ nav a {
 }
 
 .nav__link--login {
-    margin-left: 48px;
+    margin-left: 3rem;
 }
 
 .nav__link--signup {
@@ -89,4 +99,45 @@ nav a {
     padding: 12px 32px;
     border-radius: 30px;
     font-weight: 600;
+}
+
+/*
+
+LANDING PAGE
+
+*/
+
+#landing {
+    margin: 6rem 0;
+}
+
+.landing__container {
+    display: flex;
+}
+
+.landing__content {
+    width: 40%;
+}
+
+.landing__image--container {
+    width: 60%;
+}
+
+.landing__image {
+    width: 100%;
+}
+
+.landing__image--customers {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.landing__content--trusted-customers {
+    color: rgb(160 174 192/1);
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+.landing__content--para {
+    font-size: 1rem;
 }
