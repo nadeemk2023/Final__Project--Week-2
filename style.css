@@ -98,7 +98,7 @@ nav a {
     color: white;
     padding: 12px 32px;
     border-radius: 30px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /*
@@ -153,5 +153,5 @@ LANDING PAGE
     border: 0 solid transparent;
     border-radius: 30px;
     width: 10rem;
-    font-size: 1rem;
+    font-size: 16px
 }
