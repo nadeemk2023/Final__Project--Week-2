@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Inter, system-ui, sans-serif;
+    line-height: 1.5;
 }
 
 body {
@@ -150,6 +151,8 @@ LANDING PAGE
 .landing__content--cta-container {
     position: relative;
     margin-bottom: 5rem;
+    max-width: 28rem;
+    text-align: center;
 }
 
 .landing__content--button {
@@ -158,18 +161,17 @@ LANDING PAGE
     font-weight: 700;
     padding: 1rem 0;
     border: 0 solid transparent;
-    border-radius: 30px;
+    border-radius: 32px;
     width: 10rem;
     font-size: 16px;
     position: absolute;
+    margin: 8px 0;
 }
 
 
 .landing__content--input {
-    padding: 1.25rem 12rem 1.25rem 0;
-    border-radius: 30px;
-    font-weight: 500;
-    text-align: center;
-    border: 2px solid rgb(226, 232, 240);
     width: 100%;
+    border: 2px solid rgb(226, 232, 240);
+    padding: 20px 192px 20px 32px;
+    border-radius: 32px;
 }
