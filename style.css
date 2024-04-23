@@ -111,6 +111,10 @@ LANDING PAGE
     margin: 6rem 0;
 }
 
+#landing .row {
+    display: flex;
+}
+
 .landing__content {
     display: flex;
     flex-direction: column;
@@ -118,12 +122,11 @@ LANDING PAGE
 }
 
 .landing__image--container {
-    height: 100%;
+    width: 60%;
 }
 
 .landing__image {
     width: 100%;
-    height: auto;
 }
 
 .landing__image--customers {
@@ -133,8 +136,9 @@ LANDING PAGE
 
 .landing__content--trusted-customers {
     color: rgb(160 174 192/1);
-    font-size: .875rem;
+    font-size: .75rem;
     font-weight: bold;
+    margin-bottom: 16px;
 }
 
 .landing__content--para {
