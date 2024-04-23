@@ -127,6 +127,7 @@ LANDING PAGE
 
 .landing__image {
     width: 100%;
+    height: auto;
 }
 
 .landing__image--customers {
