@@ -223,7 +223,7 @@ FEATURES
 .service {
     display: flex;
     width: calc(100% / 3);
-    text-align: left;
+    padding: 32px 8px;
 }
 
 .service__img--container {
@@ -257,4 +257,7 @@ FEATURES
 .service__para {
     line-height: 2;
     margin-top: 16px;
+    width: 90%;
+    font-weight: 500;
+    color: rgb(124, 139, 161);
 }
