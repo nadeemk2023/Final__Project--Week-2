@@ -36,17 +36,26 @@ li {
     color: rgb(100, 21, 255);
 }
 
-h1,
+h1 {
+    font-size: 36px;
+    color: rgb(26, 32, 44);
+}
+
 h2 {
     font-size: 3rem;
+    font-weight: 900;
 }
 
 
 h5 {
     font-size: 1rem;
-    text-align: center;
+    letter-spacing: 1.6px;
 }
 
+p {
+    color: rgb(124, 139, 161);
+    ;
+}
 
 /* 
 
@@ -155,7 +164,8 @@ LANDING PAGE
 .landing__content--para {
     font-size: 18px;
     margin: 2rem 0;
-    line-height: 1.5;
+    line-height: 24px;
+    color: rgb(36, 62, 99);
 }
 
 .landing__content--cta-container {
@@ -259,5 +269,36 @@ FEATURES
     margin-top: 16px;
     width: 90%;
     font-weight: 500;
-    color: rgb(124, 139, 161);
+}
+
+/* 
+
+QUALITY WORK 
+
+*/
+
+.qualityWork__container {
+    display: flex;
+}
+
+.qualityWork__content {
+    width: 50%;
+    margin-right: 64px;
+}
+
+.qualityWork__image--container {
+    width: 50%;
+}
+
+.qualityWork__image {
+    width: 100%;
+}
+
+.qualityWork__title {
+    line-height: 60px;
+    margin-top: 16px;
+}
+
+.qualityWork__para {
+    margin-top: 16px;
 }
