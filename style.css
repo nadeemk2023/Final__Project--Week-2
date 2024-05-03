@@ -124,6 +124,7 @@ nav a {
     padding: 12px 32px;
     border-radius: 30px;
     font-weight: 700;
+    cursor: not-allowed;
 }
 
 /*
@@ -201,7 +202,8 @@ LANDING PAGE
     border-radius: 32px;
     font-size: 16px;
     top: 0;
-    right: 8px
+    right: 8px;
+    cursor: not-allowed;
 }
 
 /* 
@@ -289,10 +291,14 @@ QUALITY WORK
 .qualityWork__content {
     width: 50%;
     margin-right: 64px;
+    display: flex;
+    flex-direction: column;
 }
 
 .qualityWork__image--container {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .qualityWork__image {
@@ -312,16 +318,15 @@ QUALITY WORK
 }
 
 .qualityWork__button {
-    margin: 8px 0;
-    width: 10rem;
-    line-height: 1;
+    margin-top: 32px;
+    width: 142px;
+    line-height: 21px;
     background-color: rgb(100 21 255/1);
     color: white;
     font-weight: 700;
-    padding: 1rem 0;
+    padding: 12px 32px;
     border: 0 solid transparent;
     border-radius: 32px;
-    font-size: 16px;
-    top: 0;
-    right: 8px
+    font-size: 14px;
+    cursor: not-allowed;
 }
