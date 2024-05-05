@@ -342,6 +342,7 @@ STEPS
     display: flex;
     width: 50%;
     flex-direction: column;
+    margin-left: 64px;
 }
 
 .steps__image--wrapper {
@@ -350,14 +351,40 @@ STEPS
 
 #steps .row {
     display: flex;
+    align-items: center;
 }
 
 .steps {
     width: 50%;
     display: flex;
     flex-direction: column;
+    margin-top: 32px;
 }
 
 .step {
     display: flex;
+}
+
+.step__number {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(200, 213, 224);
+}
+
+.step__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.step__content--title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.step__content--para {
+    margin-top: 12px;
+    line-height: 2;
 }
