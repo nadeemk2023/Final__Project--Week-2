@@ -58,9 +58,6 @@ p {
     margin-block-end: 1em;
 }
 
-img {
-    max-width: 100%;
-}
 
 /* 
 
@@ -253,6 +250,7 @@ FEATURES
     height: 60px;
     border-radius: 50%;
 }
+
 
 .service__img {
     height: 24px;
