@@ -347,13 +347,16 @@ STEPS
     width: 50%;
 }
 
+.steps__image {
+    max-width: 100%;
+}
+
 #steps .row {
     display: flex;
     align-items: center;
 }
 
 .steps {
-    width: 50%;
     display: flex;
     flex-direction: column;
     margin-top: 32px;
@@ -361,6 +364,7 @@ STEPS
 
 .step {
     display: flex;
+    margin-top: 32px;
 }
 
 .step__number {
