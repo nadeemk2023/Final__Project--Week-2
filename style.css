@@ -360,6 +360,7 @@ STEPS
     display: flex;
     flex-direction: column;
     margin-top: 32px;
+    width: 100%;
 }
 
 .step {
@@ -390,3 +391,10 @@ STEPS
     margin-top: 12px;
     line-height: 2;
 }
+
+
+/* 
+
+VALUES 
+
+*/
