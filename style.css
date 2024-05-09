@@ -398,3 +398,30 @@ STEPS
 VALUES 
 
 */
+
+.values__container {
+    display: flex;
+}
+
+.values__image--container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.values__image--image {
+    width: 100%;
+}
+
+.values__content--container {
+    width: 50%;
+    margin-right: 64px;
+    max-width: 410px;
+}
+
+.values__content--para {
+    margin: 32px 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+}
