@@ -425,3 +425,11 @@ VALUES
     line-height: 30px;
     font-weight: 500;
 }
+
+.principles__header {
+    display: flex;
+}
+
+.principles__title {
+    font-size: 20px;
+}
