@@ -428,8 +428,44 @@ VALUES
 
 .principles__header {
     display: flex;
+    align-items: center;
 }
 
 .principles__title {
     font-size: 20px;
+    margin-left: 12px;
+}
+
+.principles__affordable--moneysign {
+    color: rgb(39, 103, 73);
+    background-color: rgb(154, 230, 180);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.principles__affordable--para {
+    line-height: 26px;
+}
+
+.principles__professionalism--briefcase {
+    color: rgb(155, 44, 44);
+    background-color: rgb(254, 178, 178);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.values__principles--container {
+    display: flex;
+}
+
+.principles__affordable--container {
+    margin-right: 32px;
+}
+
+.principles__professionalism--container {
+    width: 50%;
+}
+
+.principles__professionalism--para {
+    line-height: 26px;
 }
