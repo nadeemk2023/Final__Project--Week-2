@@ -416,7 +416,6 @@ VALUES
 .values__content--container {
     width: 50%;
     margin-right: 64px;
-    max-width: 410px;
 }
 
 .values__content--para {
@@ -456,6 +455,7 @@ VALUES
 
 .values__principles--container {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .principles__affordable--container {
@@ -468,4 +468,17 @@ VALUES
 
 .principles__professionalism--para {
     line-height: 26px;
+}
+
+.values__learn-more-btn {
+    width: 142px;
+    line-height: 21px;
+    background-color: rgb(100 21 255/1);
+    color: white;
+    font-weight: 700;
+    padding: 12px 32px;
+    border: 0 solid transparent;
+    border-radius: 32px;
+    font-size: 14px;
+    cursor: not-allowed;
 }
