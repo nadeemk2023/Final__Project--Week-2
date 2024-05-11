@@ -440,6 +440,7 @@ VALUES
     background-color: rgb(154, 230, 180);
     padding: 8px;
     border-radius: 50%;
+    font-size: 20px;
 }
 
 .principles__affordable--para {
@@ -451,6 +452,7 @@ VALUES
     background-color: rgb(254, 178, 178);
     padding: 8px;
     border-radius: 50%;
+    font-size: 20px;
 }
 
 .values__principles--container {
