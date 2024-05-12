@@ -494,3 +494,7 @@ PRICING
 .pricing__header--subtitle {
     text-align: center;
 }
+
+.pricing__header--title {
+    text-align: center;
+}
