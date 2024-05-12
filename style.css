@@ -484,3 +484,13 @@ VALUES
     font-size: 14px;
     cursor: not-allowed;
 }
+
+/*
+
+PRICING 
+
+*/
+
+.pricing__header--subtitle {
+    text-align: center;
+}
