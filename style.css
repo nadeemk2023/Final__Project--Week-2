@@ -498,3 +498,10 @@ PRICING
 .pricing__header--title {
     text-align: center;
 }
+
+.pricing__header--para {
+    width: 100%;
+    text-align: center;
+    max-width: 576px;
+    margin: 0 auto;
+}
