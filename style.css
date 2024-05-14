@@ -505,3 +505,49 @@ PRICING
     max-width: 576px;
     margin: 0 auto;
 }
+
+/* 
+
+PLANS 
+
+*/
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin-top: 64px;
+    padding: 8px 32px 0px 32px;
+}
+
+.plan__header {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan__header--title {
+    font-size: 20px;
+    color: rgb(26, 32, 44);
+}
+
+.plan__header--price {
+    font-size: 48px;
+    color: rgb(26, 32, 44);
+    font-weight: 700;
+    margin: 4px 0;
+}
+
+.plan__header--monthly {
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+}
