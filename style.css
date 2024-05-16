@@ -566,3 +566,16 @@ PLANS
     color: rgb(26, 32, 44);
     font-size: 20px;
 }
+
+.call-to-action__buy-now-button {
+    background-color: rgb(129, 230, 217);
+    border-radius: 30px;
+    padding: 16px 0;
+    font-size: 14px;
+    color: white;
+    border: none;
+    letter-spacing: 0.05em;
+    width: 155px;
+    font-weight: 700;
+
+}
