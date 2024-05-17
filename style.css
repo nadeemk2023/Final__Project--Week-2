@@ -559,7 +559,7 @@ PLANS
     width: calc(100% + 64px);
 }
 
-.feature--header {
+.plan__features .feature--header {
     font-weight: 700;
     color: rgb(26, 32, 44);
     font-size: 20px;
