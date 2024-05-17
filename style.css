@@ -54,8 +54,6 @@ h5 {
 
 p {
     color: rgb(124, 139, 161);
-    margin-block-start: 1em;
-    margin-block-end: 1em;
 }
 
 
@@ -565,10 +563,21 @@ PLANS
     font-weight: 700;
     color: rgb(26, 32, 44);
     font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.feature {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+.plan__call-to-action {
+    padding: 32px;
 }
 
 .call-to-action__buy-now-button {
-    background-color: rgb(129, 230, 217);
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     border-radius: 30px;
     padding: 16px 0;
     font-size: 14px;
