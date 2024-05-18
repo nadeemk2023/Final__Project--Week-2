@@ -652,7 +652,6 @@ PLANS
 }
 
 .plan__business {
-    background: rgb(100, 21, 255);
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
 
