@@ -529,6 +529,10 @@ PLANS
     margin-right: 32px;
 }
 
+.plan:last-child {
+    margin-right: 0;
+}
+
 .plan p,
 .plan h3 {
     color: rgb(26, 32, 44);
