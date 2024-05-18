@@ -619,6 +619,10 @@ PLANS
     font-weight: 700;
 }
 
+.plans button {
+    cursor: not-allowed;
+}
+
 .btn__personal {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
