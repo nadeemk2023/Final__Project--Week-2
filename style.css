@@ -667,3 +667,34 @@ PLANS
 .plan__business .plan__features {
     border-color: rgb(102 126 234);
 }
+
+/* 
+
+TESTIMONIALS
+
+*/
+
+.testimonials__container {
+    display: flex;
+}
+
+.testimonials__left {
+    width: 50%;
+}
+
+.testimonials__right {
+    width: 50%;
+}
+
+.testimonials__img {
+    width: 100%;
+}
+
+.testimonial__author--container {
+    display: flex;
+}
+
+.testimonial__author--img {
+    width: 80px;
+    border-radius: 50%;
+}
