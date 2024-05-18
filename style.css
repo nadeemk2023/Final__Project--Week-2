@@ -534,6 +534,10 @@ PLANS
     color: rgb(26, 32, 44);
 }
 
+.plan:nth-child(2) p,
+.plan:nth-child(2) h3 {
+    color: #fff
+}
 
 
 .plan__personal::before {
