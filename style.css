@@ -529,7 +529,11 @@ PLANS
     box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.75);
 }
 
-.plan::before {
+.plan__business {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan__personal::before {
     position: absolute;
     content: "";
     height: 8px;
@@ -541,13 +545,15 @@ PLANS
     border-top-right-radius: 8px;
 }
 
-
-
-.plan__header {
-    padding: 32px;
+.plan__personal::before .plan__header {
+    padding: 32px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.plan__header {
+    padding: 32px;
 }
 
 .plan__header--title {
@@ -561,6 +567,7 @@ PLANS
     font-weight: 700;
     margin: 4px 0;
 }
+
 
 .plan__header--monthly {
     margin: 0;
@@ -594,7 +601,6 @@ PLANS
 }
 
 .call-to-action__buy-now-button {
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     border-radius: 30px;
     padding: 16px 0;
     font-size: 14px;
@@ -603,5 +609,28 @@ PLANS
     letter-spacing: 0.05em;
     width: 155px;
     font-weight: 700;
+}
 
+.btn__personal {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.btn__enterprise {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.btn__business {
+    color: rgb(100 21 255)
+}
+
+.plan__enterprise::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
