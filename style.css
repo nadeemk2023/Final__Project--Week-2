@@ -676,6 +676,7 @@ TESTIMONIALS
 
 .testimonials__container {
     display: flex;
+    align-items: center;
 }
 
 .testimonials__left {
@@ -684,6 +685,7 @@ TESTIMONIALS
 
 .testimonials__right {
     width: 50%;
+    margin-left: 64px;
 }
 
 .testimonials__img {
@@ -697,4 +699,19 @@ TESTIMONIALS
 .testimonial__author--img {
     width: 80px;
     border-radius: 50%;
+}
+
+.testimonials__right--para {
+    margin-top: 24px;
+}
+
+.stars--container {
+    color: rgb(246 173 85);
+}
+
+.testimonial__review--title {
+    color: rgb(36, 62, 99);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 16px;
 }
