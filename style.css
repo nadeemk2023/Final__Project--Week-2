@@ -732,6 +732,7 @@ TESTIMONIALS
 .testimonial__author--container {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .testimonial__author--details {
@@ -747,4 +748,26 @@ TESTIMONIALS
 .testimonial__author--designation {
     font-weight: 500;
     color: rgb(124, 139, 161);
+}
+
+.testimonials_btns--wrapper {
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+    color: rgb(100, 21, 255);
+    background-color: rgb(237, 242, 247);
+    padding: 16px;
+    border-radius: 50%;
+    cursor: not-allowed;
+}
+
+.testimonial__btns--divider {
+    margin: 0 12px;
+    font-weight: 300;
+    color: #edf2f7;
+    font-size: 32px;
 }
