@@ -699,6 +699,7 @@ TESTIMONIALS
 .testimonial__author--img {
     width: 80px;
     border-radius: 50%;
+    transition: transform 0.3s ease;
 }
 
 .testimonials__right--para {
@@ -735,6 +736,8 @@ TESTIMONIALS
     position: relative;
 }
 
+
+
 .testimonial__author--details {
     margin-left: 16px;
 }
@@ -763,6 +766,11 @@ TESTIMONIALS
     padding: 16px;
     border-radius: 50%;
     cursor: not-allowed;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: rgb(226, 232, 240)
+    }
 }
 
 .testimonial__btns--divider {
