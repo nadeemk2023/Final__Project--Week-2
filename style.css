@@ -703,6 +703,7 @@ TESTIMONIALS
 
 .testimonials__right--para {
     margin-top: 24px;
+    font-weight: 500;
 }
 
 .stars--container {
@@ -718,5 +719,32 @@ TESTIMONIALS
     color: rgb(36, 62, 99);
     font-size: 20px;
     font-weight: 700;
-    margin-top: 16px;
+    margin: 16px 0;
+}
+
+.testimonial__review--para {
+    font-weight: 500;
+    color: rgb(74, 85, 104);
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.testimonial__author--container {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__author--details {
+    margin-left: 16px;
+}
+
+.testimonial__author--name {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(36, 62, 99);
+}
+
+.testimonial__author--designation {
+    font-weight: 500;
+    color: rgb(124, 139, 161);
 }
