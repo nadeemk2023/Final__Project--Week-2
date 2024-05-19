@@ -707,6 +707,11 @@ TESTIMONIALS
 
 .stars--container {
     color: rgb(246 173 85);
+    margin-top: 40px;
+}
+
+.fa-star {
+    margin-right: 4px;
 }
 
 .testimonial__review--title {
