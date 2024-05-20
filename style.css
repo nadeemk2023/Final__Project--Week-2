@@ -129,7 +129,7 @@ LANDING PAGE
 */
 
 #landing {
-    padding: 6rem 0;
+    padding: 96px 0;
 }
 
 #landing .row {
@@ -785,6 +785,11 @@ TESTIMONIALS
 FAQ
 
 */
+
+#faq {
+    padding: 96px 0;
+    border: 1px solid red;
+}
 
 .faq__header--wrapper {
     display: flex;
