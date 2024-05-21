@@ -856,3 +856,79 @@ FAQ
 .faq__item.active .faq__question--toggle {
     transform: rotate(180deg);
 }
+
+/* 
+
+GET STARTED
+
+*/
+
+#get-started {
+    background-color: rgb(100, 21, 255);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+
+#get-started a {
+    color: #fff;
+}
+
+.get-started__content--container {
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.get-started__text {
+    width: 50%;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+.get-started__btns-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.get-started__btns-container a {
+    padding: 20px 40px;
+    border-radius: 100px;
+}
+
+.get-started__btns--get-started-btn {
+    background-color: rgb(245, 101, 101);
+    margin-right: 32px;
+}
+
+.get-started__btns-contact-us {
+    border: 1px solid #fff;
+}
+
+.get-started__blob--wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.get-started__blob1 {
+    position: absolute;
+    top: -120px;
+    left: -400px;
+    height: 600px;
+}
+
+.get-started__blob2 {
+    position: absolute;
+    height: 500px;
+    bottom: 30px;
+    left: 400px;
+}
