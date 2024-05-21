@@ -847,7 +847,7 @@ FAQ
 }
 
 .faq__item.active {
-    background-color: rgb(100, 21, 255, 0.4);
+    background-color: rgb(100, 21, 255, 0.25);
 }
 
 .faq__item.active .faq__answer {
@@ -950,3 +950,9 @@ GET STARTED
     bottom: 30px;
     left: 400px;
 }
+
+/* 
+
+FOOTER
+
+ */
