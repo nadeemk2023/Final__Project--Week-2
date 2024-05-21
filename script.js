@@ -3,7 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   faqItems.forEach(item => {
     item.addEventListener('click', () => {
-      item.classList.toggle('active');
+      const isActive = item.classList.contains('active');
+
+      faqItems.forEach(item => {
+        item.classList.remove('active');
+      });
+      if (!isActive) {
+        item.classList.toggle('active');
+      }
     });
   });
 });
