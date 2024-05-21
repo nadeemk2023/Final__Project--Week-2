@@ -985,7 +985,7 @@ footer {
 
 .footer__links {
     display: flex;
-    padding: 96px 32px;
+    padding: 96px 32px 0 32px;
 }
 
 
@@ -1019,4 +1019,10 @@ footer {
     &:hover {
         border-bottom: 2px solid white;
     }
+}
+
+.footer__divider {
+    border-bottom: 2px solid rgb(116, 44, 255);
+    margin: 64px auto;
+    width: 90%;
 }
