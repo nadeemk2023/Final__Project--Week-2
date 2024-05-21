@@ -981,7 +981,11 @@ FOOTER
 footer {
     background-color: rgb(100, 21, 255);
     color: rgb(247, 250, 252);
-    padding: 96px 32px;
+    padding: 80px 32px;
+}
+
+.footer__row {
+    padding: 0 32px;
 }
 
 .footer__links {
@@ -1032,6 +1036,20 @@ footer {
     justify-content: space-between;
 }
 
-.footer__row {
-    padding: 0 32px;
+.info__business--container {
+    display: flex;
+    align-items: center;
+}
+
+.info__business--logo {
+    width: 32px;
+    background-color: white;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+
+
+.info__business--copyright {
+    font-weight: 500;
+    color: rgb(203, 213, 224, .8);
 }
