@@ -876,7 +876,7 @@ GET STARTED
 }
 
 #get-started a {
-    color: #fff;
+    cursor: not-allowed;
 }
 
 .get-started__content--container {
@@ -904,11 +904,26 @@ GET STARTED
 
 .get-started__btns--get-started-btn {
     background-color: rgb(245, 101, 101);
+    color: rgb(247, 250, 252);
     margin-right: 32px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: rgb(229, 62, 62);
+        color: rgb(237, 242, 247)
+    }
 }
+
 
 .get-started__btns-contact-us {
     border: 1px solid #fff;
+    color: rgb(247, 250, 252);
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: rgb(247, 250, 252);
+        color: rgb(100, 21, 255);
+    }
 }
 
 .get-started__blob--wrapper {
