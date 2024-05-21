@@ -466,9 +466,15 @@ VALUES
     margin-bottom: 40px;
 }
 
+.values__principles--container p {
+    margin-top: 16px;
+}
+
 .principles__affordable--container {
     margin-right: 32px;
 }
+
+
 
 .principles__professionalism--container {
     width: 50%;
