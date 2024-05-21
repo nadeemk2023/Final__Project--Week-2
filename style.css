@@ -1026,3 +1026,12 @@ footer {
     margin: 64px auto;
     width: 90%;
 }
+
+.info__business--container {
+    display: flex;
+}
+
+.footer__info--container {
+    display: flex;
+    justify-content: space-between;
+}
