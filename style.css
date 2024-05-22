@@ -1054,3 +1054,18 @@ footer {
     font-weight: 500;
     color: rgb(203, 213, 224, .7);
 }
+
+footer .fa-brands {
+    background-color: rgb(247, 250, 252);
+    border-radius: 50%;
+}
+
+
+.business__socials {
+    box-sizing: content-box;
+    width: 16px;
+    height: 16px;
+    padding: 8px;
+    text-align: center;
+    color: rgb(26, 32, 44);
+}
