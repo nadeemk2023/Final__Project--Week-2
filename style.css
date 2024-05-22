@@ -1069,4 +1069,10 @@ footer .fa-brands {
     margin-right: 8px;
     text-align: center;
     color: rgb(26, 32, 44);
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        background-color: rgb(203, 213, 224);
+        color: rgb(116, 44, 255, 0.8)
+    }
 }
