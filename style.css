@@ -14,7 +14,10 @@ html {
 
 body {
     color: rgb(36, 62, 99);
-    /* padding: 2rem; */
+}
+
+header {
+    padding: 32px;
 }
 
 section {
@@ -1102,3 +1105,11 @@ footer .fa-brands {
     bottom: -330px;
     right: -200px;
 }
+
+/* 
+
+RESPONSIVE DESIGNING
+
+*/
+
+@media (max-width:768px) {}
