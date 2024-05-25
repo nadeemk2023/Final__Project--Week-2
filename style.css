@@ -1112,4 +1112,8 @@ RESPONSIVE DESIGNING
 
 */
 
-@media (max-width:768px) {}
+@media (max-width:768px) {
+    .nav__list {
+        display: none;
+    }
+}
