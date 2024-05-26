@@ -133,6 +133,10 @@ nav a {
     cursor: not-allowed;
 }
 
+.btn__menu {
+    display: none;
+}
+
 /*
 
 LANDING PAGE
@@ -1116,4 +1120,9 @@ RESPONSIVE DESIGNING
     .nav__list {
         display: none;
     }
+
+    .btn__menu {
+        display: block;
+    }
+
 }
