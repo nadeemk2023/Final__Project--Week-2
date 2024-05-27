@@ -193,7 +193,7 @@ LANDING PAGE
 
 .landing__content--trusted-customers {
     color: rgb(160 174 192/1);
-    font-size: .75rem;
+    font-size: 12px;
     font-weight: bold;
     margin-bottom: 16px;
 }
@@ -207,7 +207,7 @@ LANDING PAGE
 
 .landing__content--cta-container {
     position: relative;
-    margin-bottom: 5rem;
+    margin-bottom: 80px;
     max-width: 28rem;
     text-align: center;
 }
@@ -1177,5 +1177,16 @@ RESPONSIVE DESIGNING
         margin: 20px 0;
         text-align: center;
     }
+
+    .landing__content--cta-container {
+        margin-bottom: 48px;
+    }
+
+    .landing__content--trusted-customers {
+        text-align: center;
+        font-size: 14px;
+    }
+
+
 
 }
