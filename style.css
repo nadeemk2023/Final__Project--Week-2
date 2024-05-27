@@ -1146,4 +1146,36 @@ RESPONSIVE DESIGNING
         display: block;
     }
 
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body {
+        padding: 32px;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    #landing {
+        padding: 0;
+    }
+
+    .landing__content {
+        width: 100%;
+        max-width: 512px;
+    }
+
+    .landing__content h1 {
+        font-size: 30px;
+    }
+
+    .landing__content--para {
+        font-size: 16px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
 }
