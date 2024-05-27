@@ -135,6 +135,18 @@ nav a {
 
 .btn__menu {
     display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(36, 62, 99);
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: rgb(100, 21, 255);
+
+    }
 }
 
 .nav__list--mobile {
