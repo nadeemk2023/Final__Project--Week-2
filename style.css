@@ -137,6 +137,15 @@ nav a {
     display: none;
 }
 
+.nav__list--mobile {
+    display: none;
+}
+
+.menu__backdrop {
+    display: none;
+}
+
+
 /*
 
 LANDING PAGE
@@ -1116,7 +1125,7 @@ RESPONSIVE DESIGNING
 
 */
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
     .nav__list {
         display: none;
     }
