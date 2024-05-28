@@ -149,14 +149,10 @@ nav a {
     }
 }
 
+.menu__backdrop,
 .nav__list--mobile {
     display: none;
 }
-
-.menu__backdrop {
-    display: none;
-}
-
 
 /*
 
@@ -1148,6 +1144,14 @@ RESPONSIVE DESIGNING
         display: block;
     }
 
+    .menu__backdrop.show {
+        display: block;
+    }
+
+    .menu__backdrop.show .nav__list--mobile {
+        display: block;
+    }
+
     .row {
         flex-direction: column;
         align-items: center;
@@ -1194,6 +1198,5 @@ RESPONSIVE DESIGNING
         max-width: 512px;
         margin-top: 48px;
     }
-
 
 }

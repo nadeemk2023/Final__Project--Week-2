@@ -13,4 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  const menuButton = document.querySelector('.btn__menu');
+  const closeButton = document.querySelector('.btn__menu--close');
+  const menuBackdrop = document.querySelector('.menu__backdrop');
+
+  menuButton.addEventListener('click', () => {
+    menuBackdrop.classList.add('show');
+  });
+
+  closeButton.addEventListener('click', () => {
+    menuBackdrop.classList.remove('show');
+  });
 });
