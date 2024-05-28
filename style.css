@@ -170,6 +170,7 @@ LANDING PAGE
 
 #landing .row {
     display: flex;
+    justify-content: space-around;
 }
 
 .landing__content {
@@ -180,6 +181,7 @@ LANDING PAGE
 
 .landing__image--container {
     width: 60%;
+    max-width: 768px;
 }
 
 .landing__image {
@@ -209,7 +211,7 @@ LANDING PAGE
     position: relative;
     margin-bottom: 80px;
     max-width: 28rem;
-    text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -1187,6 +1189,11 @@ RESPONSIVE DESIGNING
         font-size: 14px;
     }
 
+    .landing__image--container {
+        width: 100%;
+        max-width: 512px;
+        margin-top: 48px;
+    }
 
 
 }
