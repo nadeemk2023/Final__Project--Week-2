@@ -133,7 +133,8 @@ nav a {
     cursor: not-allowed;
 }
 
-.btn__menu {
+.btn__menu,
+.btn__menu--close {
     display: none;
     background-color: transparent;
     border: none;
