@@ -162,11 +162,7 @@ nav a {
     padding: 32px;
     border-radius: 8px;
     display: none;
-    justify-content: center;
-    align-items: center;
 }
-
-
 
 /* .menu__backdrop, */
 .nav__list--mobile {
