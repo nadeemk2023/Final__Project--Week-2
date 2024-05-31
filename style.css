@@ -1151,16 +1151,18 @@ RESPONSIVE DESIGNING
 */
 
 @media (max-width:1024px) {
-    .nav__list {
-        display: none;
-    }
 
     .btn__menu {
         display: block;
     }
 
+    .nav__list {
+        display: none;
+    }
+
     .menu__backdrop.show {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .menu__backdrop.show .nav__list--mobile {
