@@ -121,7 +121,7 @@ nav a {
 }
 
 .nav__link--login {
-    margin-left: 3rem;
+    margin-left: 48px;
 }
 
 .nav__link--signup {
@@ -162,9 +162,9 @@ nav a {
     padding: 32px;
     border-radius: 8px;
     display: none;
+    text-align: center;
 }
 
-/* .menu__backdrop, */
 .nav__list--mobile {
     display: none;
 }
