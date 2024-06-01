@@ -1162,7 +1162,8 @@ RESPONSIVE DESIGNING
 
     .menu__backdrop.show {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     .menu__backdrop.show .nav__list--mobile {
