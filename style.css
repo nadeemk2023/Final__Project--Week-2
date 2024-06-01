@@ -1156,6 +1156,12 @@ RESPONSIVE DESIGNING
         display: block;
     }
 
+    .btn__menu--close {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+    }
+
     .nav__list {
         display: none;
     }
