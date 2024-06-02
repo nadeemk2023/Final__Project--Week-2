@@ -95,10 +95,15 @@ nav a {
     align-items: center;
     font-size: 24px;
     font-weight: 900;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: rgb(100 21 255);
+    }
 }
 
 .nav__logo--image {
-    margin-right: 24px;
+    margin-right: 12px;
 }
 
 .nav__list {
