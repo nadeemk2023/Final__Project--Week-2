@@ -236,6 +236,11 @@ LANDING PAGE
     border: 2px solid rgb(226, 232, 240);
     padding: 20px 192px 20px 32px;
     border-radius: 32px;
+    transition: border-color 0.3s ease;
+
+    &:hover {
+        border-color: rgb(160, 174, 192);
+    }
 }
 
 .landing__content--button {
@@ -243,7 +248,7 @@ LANDING PAGE
     margin: 8px 0;
     width: 10rem;
     line-height: 1;
-    background-color: rgb(100 21 255/1);
+    background-color: rgb(100 21 255);
     color: white;
     font-weight: 700;
     padding: 1rem 0;
