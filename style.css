@@ -131,6 +131,11 @@ nav a {
     border-radius: 30px;
     font-weight: 700;
     cursor: not-allowed;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: rgba(80, 17, 204);
+    }
 }
 
 .btn__menu {
@@ -157,7 +162,7 @@ nav a {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 533px;
+    bottom: 664px;
     margin: 20px 16px;
     padding: 32px;
     border-radius: 8px;
@@ -248,6 +253,11 @@ LANDING PAGE
     top: 0;
     right: 8px;
     cursor: not-allowed;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: rgba(80, 17, 204);
+    }
 }
 
 /* 
@@ -1166,6 +1176,18 @@ RESPONSIVE DESIGNING
         display: none;
     }
 
+    .nav__link--mobile:not(.nav__link--signup) {
+        font-size: 18px;
+        padding-bottom: 4px;
+        border-bottom: 2px solid transparent;
+        transition: color 0.3s ease, border-bottom 0.3s ease;
+    }
+
+    .nav__link--mobile.nav__link--mobile:not(.nav__link--signup):hover {
+        color: rgb(100, 21, 255);
+        border-bottom: 2px solid rgb(100, 21, 255);
+    }
+
     .menu__backdrop.show {
         display: flex;
         justify-content: center;
@@ -1173,7 +1195,9 @@ RESPONSIVE DESIGNING
     }
 
     .menu__backdrop.show .nav__list--mobile {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .row {
