@@ -1275,4 +1275,26 @@ RESPONSIVE DESIGNING
     .qualityWork__container {
         flex-direction: column-reverse;
     }
+
+    .qualityWork__image--container {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .qualityWork__content {
+        margin-top: 64px;
+        width: 100%;
+        max-width: 448px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .qualityWork__title {
+        font-size: 36px;
+    }
+
+    .qualityWork__para {
+        font-size: 14px;
+    }
+
 }
