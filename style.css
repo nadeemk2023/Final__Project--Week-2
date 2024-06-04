@@ -1282,7 +1282,7 @@ RESPONSIVE DESIGNING
     }
 
     .qualityWork__content {
-        margin-top: 64px;
+        margin: 64px auto 0 auto;
         width: 100%;
         max-width: 448px;
         align-items: center;
@@ -1297,4 +1297,44 @@ RESPONSIVE DESIGNING
         font-size: 14px;
     }
 
+    .steps__image--wrapper {
+        max-width: 448px;
+        width: 100%;
+    }
+
+    .steps__content--wrapper {
+        width: 100%;
+        max-width: 448px;
+        margin: 64px 0 0 0;
+        align-items: center;
+    }
+
+    .steps__content--title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .steps {
+        margin-top: 0;
+    }
+
+
+    .step__content {
+        margin-left: 0;
+    }
+
+    .step {
+        flex-direction: column;
+        text-align: center;
+        max-width: 320px;
+        margin: 32px auto 0 auto;
+    }
+
+    .step__content--title {
+        margin-top: 12px;
+    }
+
+    .step__content--para {
+        font-size: 14px;
+    }
 }
