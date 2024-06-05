@@ -1359,4 +1359,13 @@ RESPONSIVE DESIGNING
         font-size: 36px;
         margin-top: 16px;
     }
+
+    .values__principles--container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principles__affordable--container {
+        width: 50%;
+    }
 }
