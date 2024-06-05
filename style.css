@@ -1347,4 +1347,16 @@ RESPONSIVE DESIGNING
         width: 100%;
         max-width: 448px;
     }
+
+    .values__content--container {
+        margin: 64px 0 0 0;
+        width: 100%;
+        max-width: 448px;
+        text-align: center;
+    }
+
+    .values__content--title {
+        font-size: 36px;
+        margin-top: 16px;
+    }
 }
