@@ -1337,4 +1337,9 @@ RESPONSIVE DESIGNING
     .step__content--para {
         font-size: 14px;
     }
+
+    .values__container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
