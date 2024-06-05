@@ -1342,4 +1342,9 @@ RESPONSIVE DESIGNING
         flex-direction: column-reverse;
         align-items: center;
     }
+
+    .values__image--container {
+        width: 100%;
+        max-width: 448px;
+    }
 }
