@@ -1370,6 +1370,10 @@ RESPONSIVE DESIGNING
         margin: 0;
     }
 
+    .principles__professionalism--container {
+        margin-top: 40px;
+    }
+
     .principles__header {
         justify-content: center;
     }
