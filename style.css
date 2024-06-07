@@ -1367,5 +1367,10 @@ RESPONSIVE DESIGNING
 
     .principles__affordable--container {
         width: 50%;
+        margin: 0;
+    }
+
+    .principles__header {
+        justify-content: center;
     }
 }
