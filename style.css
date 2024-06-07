@@ -1377,4 +1377,13 @@ RESPONSIVE DESIGNING
     .principles__header {
         justify-content: center;
     }
+
+    .pricing__header--para {
+        font-size: 14px;
+    }
+
+
+    .plan {
+        max-width: 384px;
+    }
 }
