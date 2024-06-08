@@ -1382,6 +1382,10 @@ RESPONSIVE DESIGNING
         font-size: 14px;
     }
 
+    .plans {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     .plan {
         max-width: 384px;
