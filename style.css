@@ -1385,9 +1385,11 @@ RESPONSIVE DESIGNING
     .plans {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .plan {
         max-width: 384px;
+        width: 100%;
     }
 }
