@@ -1401,5 +1401,19 @@ RESPONSIVE DESIGNING
     .testimonials__right {
         width: 100%;
         max-width: 448px;
+        text-align: center;
+    }
+
+    .testimonials__right h2 {
+        font-size: 36px;
+        margin-top: 16px;
+    }
+
+    .testimonials__right--para {
+        font-size: 14px;
+    }
+
+    .testimonial__review--title {
+        margin: 16px 0;
     }
 }
