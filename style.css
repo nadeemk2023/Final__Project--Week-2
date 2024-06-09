@@ -1392,4 +1392,14 @@ RESPONSIVE DESIGNING
         max-width: 384px;
         width: 100%;
     }
+
+    .testimonials__left {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .testimonials__right {
+        width: 100%;
+        max-width: 448px;
+    }
 }
