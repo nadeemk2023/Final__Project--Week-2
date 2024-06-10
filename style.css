@@ -1412,4 +1412,12 @@ RESPONSIVE DESIGNING
     .testimonial__review--title {
         margin: 16px 0;
     }
+
+    #faq h5 {
+        margin-bottom: 16px;
+    }
+
+    .faq__header--para {
+        margin-top: 16px;
+    }
 }
