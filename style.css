@@ -857,10 +857,6 @@ FAQ
 
 */
 
-#faq {
-    padding: 96px 32px;
-}
-
 .faq__header--wrapper {
     display: flex;
     flex-direction: column;
