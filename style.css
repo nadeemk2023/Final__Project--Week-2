@@ -1420,4 +1420,29 @@ RESPONSIVE DESIGNING
     .faq__header--para {
         margin-top: 16px;
     }
+
+    .get-started__content--container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-started__text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .get-started__btns-container {
+        width: 100%;
+    }
+
+    .get-started__blob1 {
+        top: 0;
+        left: -250px;
+    }
+
+    .get-started__blob2 {
+        bottom: 150px;
+        left: 250px;
+    }
 }
