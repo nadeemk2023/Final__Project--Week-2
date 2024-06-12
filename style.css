@@ -1445,4 +1445,31 @@ RESPONSIVE DESIGNING
         bottom: 150px;
         left: 250px;
     }
+
+    footer {
+        position: absolute;
+        left: 0;
+        width: 100%
+    }
+
+    .footer__links {
+        justify-content: flex-start;
+    }
+
+    .footer__link {
+        width: calc(100% / 3);
+        margin-top: 48px;
+    }
+
+    .footer__info--container {
+        flex-direction: column;
+    }
+
+    .info__business--name {
+        font-size: 20px;
+    }
+
+    .info__business--copyright {
+        margin: 32px 0;
+    }
 }
