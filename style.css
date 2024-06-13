@@ -1472,4 +1472,10 @@ RESPONSIVE DESIGNING
     .info__business--copyright {
         margin: 32px 0;
     }
+
+    #get-started .container {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
 }
