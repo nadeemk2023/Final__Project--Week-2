@@ -1478,4 +1478,24 @@ RESPONSIVE DESIGNING
         margin: 0 auto;
     }
 
+    @media(max-width:500px) {
+
+        .landing_-content-cta-contaer {
+            display: flex;
+            flex-direction: column;
+            position: static;
+        }
+
+        .landing__content--input {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .landing__content--button {
+            width: 100%;
+            position: static;
+            padding: 20px 16px;
+        }
+    }
+
 }
