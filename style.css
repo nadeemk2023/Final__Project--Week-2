@@ -500,7 +500,7 @@ VALUES
 
 .principles__affordable--moneysign,
 .principles__professionalism--briefcase {
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
     width: 36px;
