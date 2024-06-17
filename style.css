@@ -1505,6 +1505,15 @@ RESPONSIVE DESIGNING
             position: static;
             padding: 20px 16px;
         }
+
+        .get-started__btns-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .get-started__btns--get-started-btn {
+            margin: 0 0 16px 0;
+        }
     }
 
 }
